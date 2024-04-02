@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to the GitHub repository for the YOE AI Sales Bot Project! This project is part of an initiative at YOE (Your EV Online), a startup company focused on selling electric vehicles online. Our goal is to design a human-like AI system that enhances the online sales process by exhibiting a unique personality and adapting to different psychological states of customers.
+Welcome to the GitHub repository for the YOE AI Sales Bot Project! This project is part of an initiative at YOE (Your EV Online), a startup company focused on selling electric vehicles online (fictional). Our goal is to design a human-like AI system that enhances the online sales process by exhibiting a unique personality and adapting to different psychological states of customers.
 
 ## Project Overview
 
