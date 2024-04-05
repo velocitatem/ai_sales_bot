@@ -1,0 +1,312 @@
+[
+  {
+    "model": "Aurora Sedan E1",
+    "type": "Sedan",
+    "price": "$35,000",
+    "consumption": "3.6 miles/kWh",
+    "features": [
+      "Automatic Emergency Braking",
+      "Heated Seats",
+      "Touchscreen Display",
+      "Wireless Charging",
+      "Adaptive Cruise Control"
+    ],
+    "engine": {
+      "power": "150 kW",
+      "range": "300 miles",
+      "charging_time": "8 hours",
+      "battery_capacity": "75 kWh",
+      "motor_type": "Permanent Magnet Synchronous Motor"
+    },
+    "dimensions": {
+      "length": "190 inches",
+      "width": "75 inches",
+      "height": "57 inches",
+      "wheelbase": "115 inches"
+    },
+    "interior": {
+      "seating_capacity": 5,
+      "cargo_volume": "16 cubic feet",
+      "infotainment_system": "10-inch touchscreen display"
+    }
+  },
+  {
+    "model": "Solaris SUV X2",
+    "type": "SUV",
+    "price": "$45,000",
+    "consumption": "3.2 miles/kWh",
+    "features": [
+      "All-Wheel Drive",
+      "Panoramic Sunroof",
+      "Advanced Navigation System",
+      "Blind Spot Monitoring",
+      "Ventilated Seats"
+    ],
+    "engine": {
+      "power": "200 kW",
+      "range": "350 miles",
+      "charging_time": "7 hours",
+      "battery_capacity": "90 kWh",
+      "motor_type": "Dual Permanent Magnet Synchronous Motors"
+    },
+    "dimensions": {
+      "length": "195 inches",
+      "width": "78 inches",
+      "height": "68 inches",
+      "wheelbase": "118 inches"
+    },
+    "interior": {
+      "seating_capacity": 7,
+      "cargo_volume": "80 cubic feet",
+      "infotainment_system": "12-inch touchscreen display"
+    }
+  },
+  {
+    "model": "Electron Hatchback H4",
+    "type": "Hatchback",
+    "price": "$28,000",
+    "consumption": "4.1 miles/kWh",
+    "features": [
+      "Rear Camera",
+      "Keyless Entry",
+      "Bluetooth Connectivity",
+      "Apple CarPlay/Android Auto",
+      "Automatic Climate Control"
+    ],
+    "engine": {
+      "power": "120 kW",
+      "range": "250 miles",
+      "charging_time": "6 hours",
+      "battery_capacity": "60 kWh",
+      "motor_type": "Permanent Magnet Synchronous Motor"
+    },
+    "dimensions": {
+      "length": "175 inches",
+      "width": "70 inches",
+      "height": "60 inches",
+      "wheelbase": "105 inches"
+    },
+    "interior": {
+      "seating_capacity": 5,
+      "cargo_volume": "25 cubic feet",
+      "infotainment_system": "8-inch touchscreen display"
+    }
+  },
+  {
+    "model": "VoltStream Convertible V5",
+    "type": "Convertible",
+    "price": "$50,000",
+    "consumption": "3.4 miles/kWh",
+    "features": [
+      "Leather Seats",
+      "Wind Deflector",
+      "Premium Sound System",
+      "Automatic Soft-Top",
+      "Heated Steering Wheel"
+    ],
+    "engine": {
+      "power": "180 kW",
+      "range": "320 miles",
+      "charging_time": "9 hours",
+      "battery_capacity": "85 kWh",
+      "motor_type": "Permanent Magnet Synchronous Motor"
+    },
+    "dimensions": {
+      "length": "185 inches",
+      "width": "74 inches",
+      "height": "55 inches",
+      "wheelbase": "110 inches"
+    },
+    "interior": {
+      "seating_capacity": 4,
+      "cargo_volume": "10 cubic feet",
+      "infotainment_system": "10-inch touchscreen display"
+    }
+  },
+  {
+    "model": "EcoRide Pickup P3",
+    "type": "Pickup",
+    "price": "$40,000",
+    "consumption": "2.8 miles/kWh",
+    "features": [
+      "Towing Package",
+      "Four-Wheel Drive",
+      "Rugged Terrain Tires",
+      "Off-Road Capabilities",
+      "LED Headlights"
+    ],
+    "engine": {
+      "power": "250 kW",
+      "range": "300 miles",
+      "charging_time": "10 hours",
+      "battery_capacity": "95 kWh",
+      "motor_type": "Dual Induction Motors"
+    },
+    "dimensions": {
+      "length": "210 inches",
+      "width": "80 inches",
+      "height": "75 inches",
+      "wheelbase": "130 inches"
+    },
+    "interior": {
+      "seating_capacity": 5,
+      "cargo_volume": "50 cubic feet",
+      "infotainment_system": "12-inch touchscreen display"
+    }
+  },
+  {
+    "model": "Zenith Luxury L7",
+    "type": "Luxury",
+    "price": "$70,000",
+    "consumption": "3.0 miles/kWh",
+    "features": [
+      "Autonomous Driving",
+      "Massaging Seats",
+      "Ambient Lighting",
+      "Rear Seat Entertainment",
+      "360-degree Camera System"
+    ],
+    "engine": {
+      "power": "300 kW",
+      "range": "400 miles",
+      "charging_time": "11 hours",
+      "battery_capacity": "100 kWh",
+      "motor_type": "Triple Permanent Magnet Synchronous Motors"
+    },
+    "dimensions": {
+      "length": "200 inches",
+      "width": "77 inches",
+      "height": "58 inches",
+      "wheelbase": "120 inches"
+    },
+    "interior": {
+      "seating_capacity": 5,
+      "cargo_volume": "18 cubic feet",
+      "infotainment_system": "14-inch touchscreen display"
+    }
+  },
+  {
+    "model": "CrossVolt Crossover CX",
+    "type": "Crossover",
+    "price": "$37,000",
+    "consumption": "3.5 miles/kWh",
+    "features": [
+      "Cross Traffic Alert",
+      "Roof Rails",
+      "Foldable Rear Seats",
+      "Adaptive Headlights",
+      "Wireless Phone Charging"
+    ],
+    "engine": {
+      "power": "160 kW",
+      "range": "310 miles",
+      "charging_time": "8 hours",
+      "battery_capacity": "80 kWh",
+      "motor_type": "Permanent Magnet Synchronous Motor"
+    },
+    "dimensions": {
+      "length": "185 inches",
+      "width": "72 inches",
+      "height": "65 inches",
+      "wheelbase": "112 inches"
+    },
+    "interior": {
+      "seating_capacity": 5,
+      "cargo_volume": "30 cubic feet",
+      "infotainment_system": "10-inch touchscreen display"
+    }
+  },
+  {
+    "model": "FutureFlyer Sports FS8",
+    "type": "Sports",
+    "price": "$80,000",
+    "consumption": "2.5 miles/kWh",
+    "features": [
+      "Sport Mode",
+      "Aerodynamic Design",
+      "Carbon Fiber Trims",
+      "Launch Control",
+      "Active Spoiler"
+    ],
+    "engine": {
+      "power": "350 kW",
+      "range": "280 miles",
+      "charging_time": "5 hours",
+      "battery_capacity": "75 kWh",
+      "motor_type": "Quad Induction Motors"
+    },
+    "dimensions": {
+      "length": "182 inches",
+      "width": "74 inches",
+      "height": "52 inches",
+      "wheelbase": "108 inches"
+    },
+    "interior": {
+      "seating_capacity": 2,
+      "cargo_volume": "8 cubic feet",
+      "infotainment_system": "9-inch touchscreen display"
+    }
+  },
+  {
+    "model": "CityZap Mini M9",
+    "type": "Mini",
+    "price": "$22,000",
+    "consumption": "4.5 miles/kWh",
+    "features": [
+      "Compact Size",
+      "Urban Navigation",
+      "Eco Mode",
+      "Rear Parking Sensors",
+      "Heated Mirrors"
+    ],
+    "engine": {
+      "power": "100 kW",
+      "range": "200 miles",
+      "charging_time": "4 hours",
+      "battery_capacity": "50 kWh",
+      "motor_type": "Permanent Magnet Synchronous Motor"
+    },
+    "dimensions": {
+      "length": "155 inches",
+      "width": "68 inches",
+      "height": "59 inches",
+      "wheelbase": "95 inches"
+    },
+    "interior": {
+      "seating_capacity": 4,
+      "cargo_volume": "15 cubic feet",
+      "infotainment_system": "7-inch touchscreen display"
+    }
+  },
+  {
+    "model": "EcoExplorer Van V6",
+    "type": "Van",
+    "price": "$55,000",
+    "consumption": "3.1 miles/kWh",
+    "features": [
+      "Cargo Management System",
+      "Wide Access Doors",
+      "Reinforced Chassis",
+      "Integrated Navigation",
+      "Rearview Camera"
+    ],
+    "engine": {
+      "power": "220 kW",
+      "range": "330 miles",
+      "charging_time": "12 hours",
+      "battery_capacity": "110 kWh",
+      "motor_type": "Dual Induction Motors"
+    },
+    "dimensions": {
+      "length": "230 inches",
+      "width": "78 inches",
+      "height": "72 inches",
+      "wheelbase": "135 inches"
+    },
+    "interior": {
+      "seating_capacity": 8,
+      "cargo_volume": "120 cubic feet",
+      "infotainment_system": "10-inch touchscreen display"
+    }
+  }
+]
