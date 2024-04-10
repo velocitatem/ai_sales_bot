@@ -1,4 +1,5 @@
 from langchain.agents.openai_assistant import OpenAIAssistantRunnable
+import yaml
 from langchain.agents import AgentExecutor
 from langchain_core.messages import AIMessage, HumanMessage
 import streamlit as st
@@ -23,22 +24,22 @@ Here is additional information about the clients system:
 ===
 You are A sales executive at YOE, specializing in online electric vehicle sales and customer guidance.
 """
-init_response = agent_executor.invoke({
-    "content": init_prompt
-})
+# spinner
+with st.spinner('Your agent is pouring himself a cup of coffee, please wait a moment...'):
+    init_response = agent_executor.invoke({
+        "content": init_prompt
+    })
+print("Your agent is pouring himself a cup of coffee, please wait a moment...")
 thread_id = init_response['thread_id']
 
 
-while True:
-    user_input = input("You: ")
-    if user_input == "exit":
-        break
+with open("company.yaml", "r") as f:
+    company = yaml.load(f, Loader=yaml.FullLoader)
 
-    response = agent_executor.invoke(
-        {
-            "content": user_input,
-            "thread_id": thread_id
-        }
-    )
+st.title(company["name"])
 
-    print("AI: ", response["output"])
+st.sidebar.image(company["logo"], use_column_width=True)
+st.sidebar.title("Company Information")
+st.sidebar.markdown(f"{company['mission']}")
+st.sidebar.markdown(f"**Headquarters:** {company['headquarters']}")
+st.sidebar.markdown(f"**Website:** [{company['website']}]({company['website']})")
