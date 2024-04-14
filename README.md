@@ -1,6 +1,10 @@
-# YOE AI Sales Bot Project
+<h1 align="center">
+  🚀 Revolutionizing AI Sales! 🚗💡
+</h1>
 
-![demo](https://github.com/velocitatem/ai_sales_bot/assets/60182044/e9625e91-1b10-480d-9e69-bbbf9430b6de)
+<p align="center">
+  <img src="https://github.com/velocitatem/ai_sales_bot/assets/60182044/e9625e91-1b10-480d-9e69-bbbf9430b6de" alt="YOE AI Sales Bot Demo">
+</p>
 
 
 ## Introduction
@@ -32,6 +36,6 @@ Here’s what sets the YOE AI Sales Bot apart:
 
 <p align="center">
   <a href="https://github.com/velocitatem/ai_sales_bot/assistant/">
-    <button style="font-size:16px;">👨‍💻 Explore the Assistant Directory</button>
+    <button style="font-size:16px;">👨‍💻 Explore the Technical Solution</button>
   </a>
 </p>
