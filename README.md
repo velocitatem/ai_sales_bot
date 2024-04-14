@@ -1,5 +1,7 @@
 # YOE AI Sales Bot Project
 
+![demo](https://github.com/velocitatem/ai_sales_bot/assets/60182044/e9625e91-1b10-480d-9e69-bbbf9430b6de)
+
 
 ## Introduction
 
