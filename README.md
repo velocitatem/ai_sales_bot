@@ -1,5 +1,6 @@
 # YOE AI Sales Bot Project
 
+
 ## Introduction
 
 Welcome to the GitHub repository for the YOE AI Sales Bot Project! This project is part of an initiative at YOE (Your EV Online), a startup company focused on selling electric vehicles online (fictional). Our goal is to design a human-like AI system that enhances the online sales process by exhibiting a unique personality and adapting to different psychological states of customers.
@@ -23,6 +24,8 @@ The YOE AI Sales Bot is designed to interact with potential customers, providing
 1. Clone the repository:
    ```bash
    git clone https://github.com/velocitatem/ai_sales_bot.git
+   cd ai_sales_bot
+   cd assistant
    ```
 
 2. Install dependencies:
@@ -35,9 +38,7 @@ The YOE AI Sales Bot is designed to interact with potential customers, providing
 To start the AI sales bot, run:
 
 ```bash
-python sales_bot.py
+streamlit run main.py
 ```
 
-## Usage
-
-The bot can be interacted with through a command-line interface or integrated into a web application for customer interactions. Detailed usage instructions are provided in the `docs` folder.
+You can also configure `company.yaml` with details of your company to tailor for specific needs.
