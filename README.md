@@ -9,7 +9,9 @@ Welcome to the GitHub repository for the YOE AI Sales Bot Project! This project 
 
 ## Project Overview
 
-The YOE AI Sales Bot is designed to interact with potential customers, providing information about our electric vehicles (EVs), answering queries, and guiding them through the sales process. The bot is equipped with capabilities to detect and respond to various customer emotions and personality traits, ensuring a personalized and effective sales experience.
+The YOE AI Sales Bot is designed to interact with potential customers, providing information about our electric vehicles (EVs), answering queries, and guiding them through the sales process. The bot is equipped with capabilities to detect and respond to various customer emotions and personality traits, ensuring a personalized and effective sales experience. Some key technical sale points:
+- Targeted memory - any past conversations with a specific user will be remembered and stored off-site.
+- Easy data integration - no matter what format any of the data about the company's stock, our agent can read it all.
 
 ### Key Features
 
