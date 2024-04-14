@@ -5,44 +5,33 @@
 
 ## Introduction
 
-Welcome to the GitHub repository for the YOE AI Sales Bot Project! This project is part of an initiative at YOE (Your EV Online), a startup company focused on selling electric vehicles online (fictional). Our goal is to design a human-like AI system that enhances the online sales process by exhibiting a unique personality and adapting to different psychological states of customers.
-
+🚀 Welcome to the GitHub repository for the YOE AI Sales Bot Project! This project is part of an exciting initiative at YOE (Your EV Online) 🚗, a startup focused on revolutionizing the way electric vehicles are sold online (fictional). Our mission? To craft a human-like AI system that not only boosts the online sales experience but also brings a unique personality to the table, smartly adjusting to the diverse psychological states of our customers. Let's electrify the sales journey together! ⚡🤖
 ## Project Overview
 
-The YOE AI Sales Bot is designed to interact with potential customers, providing information about our electric vehicles (EVs), answering queries, and guiding them through the sales process. The bot is equipped with capabilities to detect and respond to various customer emotions and personality traits, ensuring a personalized and effective sales experience. Some key technical sale points:
-- Targeted memory - any past conversations with a specific user will be remembered and stored off-site.
-- Easy data integration - no matter what format any of the data about the company's stock, our agent can read it all.
+🌟 The YOE AI Sales Bot is crafted to engage with potential customers, dishing out key info about our electric vehicles (EVs), fielding questions, and smoothly navigating them through the sales pipeline. Here's the lowdown on what makes our bot a game-changer in the EV sales arena:
+
+### Key Features:
+
+- **Targeted Memory 🧠**: The bot remembers any past interactions with a user, storing this info off-site to tailor conversations better.
+
+- **Easy Data Integration 📊**: Our bot can adapt to any data format you throw at it. Whether it's CSV, JSON, or plain text, it seamlessly integrates data about our stock.
+
 
 ### Key Features
 
-- **Personality Design**: Incorporates traits from the OCEAN model to emulate a relatable and engaging personality.
-- **Emotion Detection**: Identifies key emotions like enthusiasm, curiosity, and hesitation in customer's language.
-- **Personality Trait Recognition**: Recognizes distinct personality traits of customers such as Visionaries and Bargain Hunters.
-- **Tailored Interactions**: Adapts conversations and responses based on detected emotions and personality traits.
+Here’s what sets the YOE AI Sales Bot apart:
 
-## Getting Started
+- **Personality Design 🎨**: Integrates traits from the OCEAN model to mirror a personality that’s both relatable and captivating.
+
+- **Emotion Detection 😊🔍**: Pinpoints key emotions like enthusiasm, curiosity, and hesitation in customer interactions.
+
+- **Personality Trait Recognition 🕵️‍♂️**: Identifies distinct customer personality types, such as Visionaries and Bargain Hunters, enhancing interaction quality.
+
+- **Tailored Interactions 🧵✨**: Customizes conversations and responses dynamically, based on the detected emotions and personality traits of each customer.
 
 
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/velocitatem/ai_sales_bot.git
-   cd ai_sales_bot
-   cd assistant
-   ```
-
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-### Running the Bot
-
-To start the AI sales bot, run:
-
-```bash
-streamlit run main.py
-```
-
-You can also configure `company.yaml` with details of your company to tailor for specific needs.
+<p align="center">
+  <a href="https://github.com/velocitatem/ai_sales_bot/assistant/">
+    <button style="font-size:16px;">👨‍💻 Explore the Assistant Directory</button>
+  </a>
+</p>
