@@ -35,7 +35,7 @@ Here’s what sets the YOE AI Sales Bot apart:
 
 
 <p align="center">
-  <a href="https://github.com/velocitatem/ai_sales_bot/assistant/">
+  <a href="https://github.com/velocitatem/ai_sales_bot/tree/main/assistant">
     <button style="font-size:16px;">👨‍💻 Explore the Technical Solution</button>
   </a>
 </p>
