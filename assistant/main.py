@@ -41,7 +41,7 @@ with st.spinner('Your agent is pouring himself a cup of coffee, please wait a mo
 thread_id = init_response['thread_id']
 
 
-with open("company.yaml", "r") as f:
+with open("./assistant/company.yaml", "r") as f:
     company = yaml.load(f, Loader=yaml.FullLoader)
 
 st.title(company["name"] + " - Sales Representative")
