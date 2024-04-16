@@ -1,14 +1,18 @@
 from langchain.agents.openai_assistant import OpenAIAssistantRunnable
+import time
+import random
 from streamlit_chat import message
 import yaml
 from langchain.agents import AgentExecutor
 from langchain_core.messages import AIMessage, HumanMessage
 import streamlit as st
+from pi import get_response
 
 ASSISTANT_ID = "asst_6MfY2bV0tjC7aPZPYxABZSna"
 
 agent = OpenAIAssistantRunnable(assistant_id=ASSISTANT_ID,
                                 as_agent=True)
+
 agent_executor = AgentExecutor(agent=agent,
                                tools=[],
                                verbose=False)
@@ -68,5 +72,9 @@ if prompt := st.chat_input("You"):
         "content": prompt,
         "thread_id": thread_id,
     })
-    st.chat_message("agent").write(response['output'], markdown=False)
-    st.session_state.messages.append({"role": "agent", "content": response['output']})
+    # response['output'] = get_response(response['output'] + "---In previous conversations you said the text above the three dashes. I now want you to re-state the information or message of the text. You should write in first person. Do not confirm anything from this message. Simply rewrite the statement in a new way.")
+    jn = response['output'].split(".")
+    for text in jn:
+        st.chat_message("agent").write(text, markdown=False)
+        st.session_state.messages.append({"role": "agent", "content": text})
+        time.sleep(random.uniform(0.1, 1))
