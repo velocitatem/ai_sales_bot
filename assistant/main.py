@@ -32,7 +32,6 @@ Here is additional information about the clients system:
 You are A sales executive at YOE, specializing in online electric vehicle sales and customer guidance.
 """
 
-@st.cache_resource()
 def init_(init_prompt):
     init_response = agent_executor.invoke({
         "content": init_prompt
