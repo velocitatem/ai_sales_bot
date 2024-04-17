@@ -73,8 +73,6 @@ if prompt := st.chat_input("You"):
         "thread_id": thread_id,
     })
     # response['output'] = get_response(response['output'] + "---In previous conversations you said the text above the three dashes. I now want you to re-state the information or message of the text. You should write in first person. Do not confirm anything from this message. Simply rewrite the statement in a new way.")
-    jn = response['output'].split(".")
-    for text in jn:
-        st.chat_message("agent").write(text, markdown=False)
-        st.session_state.messages.append({"role": "agent", "content": text})
-        time.sleep(random.uniform(0.1, 1))
+    text = response['output']
+    st.chat_message("agent").write(text, markdown=False)
+    st.session_state.messages.append({"role": "agent", "content": text})
